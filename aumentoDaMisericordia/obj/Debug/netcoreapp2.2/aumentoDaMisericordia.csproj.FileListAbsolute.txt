@@ -1,0 +1,11 @@
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\bin\Debug\netcoreapp2.2\aumentoDaMisericordia.deps.json
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\bin\Debug\netcoreapp2.2\aumentoDaMisericordia.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\bin\Debug\netcoreapp2.2\aumentoDaMisericordia.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\bin\Debug\netcoreapp2.2\aumentoDaMisericordia.dll
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\bin\Debug\netcoreapp2.2\aumentoDaMisericordia.pdb
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\obj\Debug\netcoreapp2.2\aumentoDaMisericordia.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\obj\Debug\netcoreapp2.2\aumentoDaMisericordia.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\obj\Debug\netcoreapp2.2\aumentoDaMisericordia.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\obj\Debug\netcoreapp2.2\aumentoDaMisericordia.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\obj\Debug\netcoreapp2.2\aumentoDaMisericordia.dll
+C:\Users\52007254883\Documents\Exercícios\aumentoDaMisericordia\obj\Debug\netcoreapp2.2\aumentoDaMisericordia.pdb

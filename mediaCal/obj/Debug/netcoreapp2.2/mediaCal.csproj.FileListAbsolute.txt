@@ -1,0 +1,11 @@
+C:\Users\52007254883\Documents\Exercícios\mediaCal\bin\Debug\netcoreapp2.2\mediaCal.deps.json
+C:\Users\52007254883\Documents\Exercícios\mediaCal\bin\Debug\netcoreapp2.2\mediaCal.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\mediaCal\bin\Debug\netcoreapp2.2\mediaCal.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\mediaCal\bin\Debug\netcoreapp2.2\mediaCal.dll
+C:\Users\52007254883\Documents\Exercícios\mediaCal\bin\Debug\netcoreapp2.2\mediaCal.pdb
+C:\Users\52007254883\Documents\Exercícios\mediaCal\obj\Debug\netcoreapp2.2\mediaCal.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\mediaCal\obj\Debug\netcoreapp2.2\mediaCal.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\mediaCal\obj\Debug\netcoreapp2.2\mediaCal.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\mediaCal\obj\Debug\netcoreapp2.2\mediaCal.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\mediaCal\obj\Debug\netcoreapp2.2\mediaCal.dll
+C:\Users\52007254883\Documents\Exercícios\mediaCal\obj\Debug\netcoreapp2.2\mediaCal.pdb
