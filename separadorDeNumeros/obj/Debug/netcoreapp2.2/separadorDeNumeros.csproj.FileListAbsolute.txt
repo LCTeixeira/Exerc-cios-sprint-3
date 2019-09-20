@@ -1,0 +1,11 @@
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\obj\Debug\netcoreapp2.2\separadorDeNumeros.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\obj\Debug\netcoreapp2.2\separadorDeNumeros.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\obj\Debug\netcoreapp2.2\separadorDeNumeros.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\obj\Debug\netcoreapp2.2\separadorDeNumeros.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\bin\Debug\netcoreapp2.2\separadorDeNumeros.deps.json
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\bin\Debug\netcoreapp2.2\separadorDeNumeros.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\bin\Debug\netcoreapp2.2\separadorDeNumeros.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\bin\Debug\netcoreapp2.2\separadorDeNumeros.dll
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\bin\Debug\netcoreapp2.2\separadorDeNumeros.pdb
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\obj\Debug\netcoreapp2.2\separadorDeNumeros.dll
+C:\Users\52007254883\Documents\Exercícios\separadorDeNumeros\obj\Debug\netcoreapp2.2\separadorDeNumeros.pdb

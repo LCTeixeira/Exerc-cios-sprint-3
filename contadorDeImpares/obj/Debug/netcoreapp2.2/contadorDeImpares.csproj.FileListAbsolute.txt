@@ -1,0 +1,11 @@
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\obj\Debug\netcoreapp2.2\contadorDeImpares.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\obj\Debug\netcoreapp2.2\contadorDeImpares.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\obj\Debug\netcoreapp2.2\contadorDeImpares.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\obj\Debug\netcoreapp2.2\contadorDeImpares.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\bin\Debug\netcoreapp2.2\contadorDeImpares.deps.json
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\bin\Debug\netcoreapp2.2\contadorDeImpares.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\bin\Debug\netcoreapp2.2\contadorDeImpares.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\bin\Debug\netcoreapp2.2\contadorDeImpares.dll
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\bin\Debug\netcoreapp2.2\contadorDeImpares.pdb
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\obj\Debug\netcoreapp2.2\contadorDeImpares.dll
+C:\Users\52007254883\Documents\Exercícios\contadorDeImpares\obj\Debug\netcoreapp2.2\contadorDeImpares.pdb
