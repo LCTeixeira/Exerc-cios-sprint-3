@@ -1,0 +1,11 @@
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\obj\Debug\netcoreapp2.2\leitorDeIdade.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\obj\Debug\netcoreapp2.2\leitorDeIdade.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\obj\Debug\netcoreapp2.2\leitorDeIdade.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\obj\Debug\netcoreapp2.2\leitorDeIdade.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\bin\Debug\netcoreapp2.2\leitorDeIdade.deps.json
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\bin\Debug\netcoreapp2.2\leitorDeIdade.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\bin\Debug\netcoreapp2.2\leitorDeIdade.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\bin\Debug\netcoreapp2.2\leitorDeIdade.dll
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\bin\Debug\netcoreapp2.2\leitorDeIdade.pdb
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\obj\Debug\netcoreapp2.2\leitorDeIdade.dll
+C:\Users\52007254883\Documents\Exercícios\leitorDeIdade\obj\Debug\netcoreapp2.2\leitorDeIdade.pdb

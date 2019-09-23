@@ -1,0 +1,4 @@
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.AssemblyInfo.cs
