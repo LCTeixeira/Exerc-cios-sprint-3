@@ -39,9 +39,9 @@ namespace menuCalculaGeometrico
 
                   case "3":
                 Console.WriteLine("Digite o raio do Circulo");
-                raio = Console.ReadLine();
+                raio = double.Parse(Console.ReadLine());
                 area = 3.14 * (raio * raio);
-                Console.WriteLine("Area do Quadrado:"+area);
+                Console.WriteLine("Area do Circulo:"+area);
                 break;
 
                   case "4":
@@ -49,6 +49,8 @@ namespace menuCalculaGeometrico
                 baase = double.Parse(Console.ReadLine());
                 Console.WriteLine("Digite a base maior do Trapezio");
                 Baase = double.Parse(Console.ReadLine());
+                Console.WriteLine("Digite a altura do Trapezio");
+                altura = double.Parse(Console.ReadLine());
                 area = altura * (2/(Baase + baase));
                 Console.WriteLine("Area do Trapezio:"+area);
                 break;
@@ -58,8 +60,8 @@ namespace menuCalculaGeometrico
                 baase = double.Parse(Console.ReadLine());
                 Console.WriteLine("Digite a altura do Retangulo");
                 altura = double.Parse(Console.ReadLine());
-                area = altura * Baase;
-                Console.WriteLine("Area do Quadrado:"+area);
+                area = altura * baase;
+                Console.WriteLine("Area do Retangulo:"+area);
                 break;
 
                   case "6":
@@ -67,15 +69,17 @@ namespace menuCalculaGeometrico
                 diagonal = double.Parse(Console.ReadLine());
                 Console.WriteLine("Digite a diagonal maior do Losango");
                 Diagonal = double.Parse(Console.ReadLine());
-                area = 2/(Diagonal*diagonal);
-                Console.WriteLine("Area do Quadrado:"+area);
+                area = (Diagonal*diagonal)/2;
+                Console.WriteLine("Area do Losango:"+area);
                 break;
 
+                case "0":
+                Console.WriteLine("Obrigado, volte sempre.");
+                break;
 
-
-
-
-
+                default:
+                Console.WriteLine("Selecione uma das opções pedidas");
+                break;
             }
 
 

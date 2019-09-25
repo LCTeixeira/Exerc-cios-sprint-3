@@ -2,3 +2,10 @@ C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netco
 C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.csproj.CoreCompileInputs.cache
 C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.AssemblyInfoInputs.cache
 C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\bin\Debug\netcoreapp2.2\menuCalculaGeometrico.deps.json
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\bin\Debug\netcoreapp2.2\menuCalculaGeometrico.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\bin\Debug\netcoreapp2.2\menuCalculaGeometrico.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\bin\Debug\netcoreapp2.2\menuCalculaGeometrico.dll
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\bin\Debug\netcoreapp2.2\menuCalculaGeometrico.pdb
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.dll
+C:\Users\52007254883\Documents\Exercícios\menuCalculaGeometrico\obj\Debug\netcoreapp2.2\menuCalculaGeometrico.pdb
