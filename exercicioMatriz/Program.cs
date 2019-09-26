@@ -5,14 +5,23 @@ namespace exercicioMatriz
     class Program
     {
         static void Main(string[] args)
-        {
-            int [] vetor = {n1,n2,n3,n4,n5,n6};
-            int pares =0; 
-            Console.WriteLine("informe a idade de seis pessoas");
-
-            if(n1 % 2 = 0){
-
+        { 
+            int[] vetor = new int[6];
+            int par = 0;
+            int impar = 0;
+           for(int cont = 0; cont < 6; cont++){
+            Console.Write($"Digite o {cont+1} número: ");
+            vetor[cont] = int.Parse(Console.ReadLine());
             }
+
+            foreach(int num in vetor){
+                if(num % 2 == 0){
+                    par++;
+                }else{
+                    impar++;
+                }
+            }
+            Console.WriteLine($"Você tem {par} números pares e {impar} números impares");            
         }
     }
 }
