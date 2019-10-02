@@ -1,4 +1,5 @@
 ﻿using System;
+using MateODragao.models;
 
 namespace MateODragao
 {
@@ -30,9 +31,9 @@ namespace MateODragao
                         guerreiro.Nome = "Edward";
                         guerreiro.Sobrenome = "Ulric";
                         guerreiro.CidadeNatal = "Grã Bretanha";
-                        guerreiro.DataNascimento = DateTime.Parse("01/04/1305");
+                        guerreiro.DataDeNascimento = DateTime.Parse("01/04/1305");
                         guerreiro.FerramentaDeAtaque = "Kriegsmesser";
-                        guerreiro.FerramentaDeDefesa = "Broquel";
+                        guerreiro.FerramentaDeProteção = "Broquel";
                         guerreiro.Forca = 3;
                         guerreiro.Destreza = 3;
                         guerreiro.Inteligencia = 2;
@@ -82,7 +83,7 @@ namespace MateODragao
                             switch (opcaoBatalhaJogador)
                             {
                                 case "1":
-                                    Ramdom geradorNumeroAleatorio = new Ramdom();
+                                    Random geradorNumeroAleatorio = new Random();
                                     int numeroAleatorioJogador = geradorNumeroAleatorio.Next(0, 5);
                                     int numeroAleatorioDragao = geradorNumeroAleatorio.Next(0, 5);
                                     int guerreiroDestrezaTotal = guerreiro.Destreza + numeroAleatorioJogador;
@@ -119,7 +120,7 @@ namespace MateODragao
                         {
                             Console.Clear();
                             System.Console.WriteLine("**Turno Dragão**");
-                            Ramdom geradorNumeroAleatorio = new Ramdom();
+                            Random geradorNumeroAleatorio = new Random();
                             int numeroAleatorioJogador = geradorNumeroAleatorio.Next(0, 5);
                             int numeroAleatorioDragao = geradorNumeroAleatorio.Next(0, 5);
                             int guerreiroDestrezaTotal = guerreiro.Destreza + numeroAleatorioJogador;
@@ -153,10 +154,9 @@ namespace MateODragao
                             switch (opcaoBatalhaJogador)
                             {
                                 case "1":
-                                    geradorNumeroAleatorio = new Ramdom();
+                                    geradorNumeroAleatorio = new Random();
                                     numeroAleatorioJogador = geradorNumeroAleatorio.Next(0, 5);
                                     numeroAleatorioDragao = geradorNumeroAleatorio.Next(0, 5);
-                                    
                                     guerreiroDestrezaTotal = guerreiro.Destreza + numeroAleatorioJogador;
                                     dragaoDestrezaTotal = dragao.Destreza + numeroAleatorioDragao;
 
@@ -181,7 +181,14 @@ namespace MateODragao
                                     jogadorNaoCorreu = false;
                                     break;
                             }
+                            if(guerreiro.Vida <= 0)
+                            {
+                                System.Console.WriteLine("Você morreu");
+                            }
 
+                            if(dragao.Vida <= 0){
+                                System.Console.WriteLine("Você venceu");
+                            }
                         }
 
                         break;
@@ -195,5 +202,11 @@ namespace MateODragao
                 }
             } while (jogadorNaoDesistiu);
         }
+
+        public static void CriarDialogo() 
+        {
+            
+        }
+
     }
 }
