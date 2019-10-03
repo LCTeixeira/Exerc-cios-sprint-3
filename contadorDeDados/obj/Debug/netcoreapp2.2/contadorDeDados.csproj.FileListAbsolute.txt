@@ -1,0 +1,11 @@
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\bin\Debug\netcoreapp2.2\contadorDeDados.deps.json
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\bin\Debug\netcoreapp2.2\contadorDeDados.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\bin\Debug\netcoreapp2.2\contadorDeDados.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\bin\Debug\netcoreapp2.2\contadorDeDados.dll
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\bin\Debug\netcoreapp2.2\contadorDeDados.pdb
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\obj\Debug\netcoreapp2.2\contadorDeDados.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\obj\Debug\netcoreapp2.2\contadorDeDados.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\obj\Debug\netcoreapp2.2\contadorDeDados.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\obj\Debug\netcoreapp2.2\contadorDeDados.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\obj\Debug\netcoreapp2.2\contadorDeDados.dll
+C:\Users\52007254883\Documents\Exercícios\contadorDeDados\obj\Debug\netcoreapp2.2\contadorDeDados.pdb

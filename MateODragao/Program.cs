@@ -27,18 +27,9 @@ namespace MateODragao
                 {
                     case "1":
                         Console.Clear();
-                        Guerreiro guerreiro = new Guerreiro();
-                        guerreiro.Nome = "Edward";
-                        guerreiro.Sobrenome = "Ulric";
-                        guerreiro.CidadeNatal = "Grã Bretanha";
-                        guerreiro.DataDeNascimento = DateTime.Parse("01/04/1305");
-                        guerreiro.FerramentaDeAtaque = "Kriegsmesser";
-                        guerreiro.FerramentaDeProteção = "Broquel";
-                        guerreiro.Forca = 3;
-                        guerreiro.Destreza = 3;
-                        guerreiro.Inteligencia = 2;
-                        guerreiro.Vida = 20;
 
+                        Guerreiro guerreiro = CriarGuerreiro();
+                        
                         Dragao dragao = new Dragao();
                         dragao.Nome = "Zamir";
                         dragao.Forca = 5;
@@ -47,12 +38,10 @@ namespace MateODragao
                         dragao.Vida = 300;
 
                         /*INICIO - Primeiro dialogo */
-                        System.Console.WriteLine($"{guerreiro.Nome.ToUpper()}: {dragao.Nome}, seu louco! Vim-lhe derrotar lhe!");
-                        System.Console.WriteLine($"{dragao.Nome.ToUpper()}: Humano tolinho quem pensas que es?");
+                        CriarDialogo(guerreiro.Nome, $" {dragao.Nome}, seu louco! Vim-lhe derrotar lhe!");
+                        CriarDialogo(dragao.Nome, $"Humano tolo, hoje é o dia de sua morte");
 
-                        System.Console.WriteLine();
-                        System.Console.WriteLine("Aperte ENTER para prosseguir");
-                        Console.ReadLine();
+                        FinalizarDialogo();
 
                         /*FIM - Primeiro dialogo */
                         /*INICIO - Segundo dialogo */
@@ -181,12 +170,13 @@ namespace MateODragao
                                     jogadorNaoCorreu = false;
                                     break;
                             }
-                            if(guerreiro.Vida <= 0)
+                            if (guerreiro.Vida <= 0)
                             {
                                 System.Console.WriteLine("Você morreu");
                             }
 
-                            if(dragao.Vida <= 0){
+                            if (dragao.Vida <= 0)
+                            {
                                 System.Console.WriteLine("Você venceu");
                             }
                         }
@@ -203,10 +193,35 @@ namespace MateODragao
             } while (jogadorNaoDesistiu);
         }
 
-        public static void CriarDialogo() 
+        public static void CriarDialogo(string nome, string frase)
         {
-            
+            System.Console.WriteLine($"{nome.ToUpper()}:{frase}");
         }
 
+        public static void FinalizarDialogo()
+        {
+            System.Console.WriteLine();
+            System.Console.WriteLine("Aperte ENTER para prosseguir.");
+            Console.ReadLine();
+            Console.Clear();
+        }
+
+        public static Guerreiro CriarGuerreiro()
+        {
+            Guerreiro guerreiro = new Guerreiro();
+            guerreiro.Nome = "Edward";
+            guerreiro.Sobrenome = "Ulric";
+            guerreiro.CidadeNatal = "Grã Bretanha";
+            guerreiro.DataDeNascimento = DateTime.Parse("01/04/1305");
+            guerreiro.FerramentaDeAtaque = "Kriegsmesser";
+            guerreiro.FerramentaDeProteção = "Broquel";
+            guerreiro.Forca = 3;
+            guerreiro.Destreza = 3;
+            guerreiro.Inteligencia = 2;
+            guerreiro.Vida = 20;
+
+            return guerreiro;
+
+        }
     }
 }

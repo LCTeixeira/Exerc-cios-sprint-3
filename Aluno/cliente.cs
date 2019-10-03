@@ -13,10 +13,10 @@ namespace McBonalds
     public DateTime DataNascimento; //Data de nascimento do cliente
 
     //Construtores
-    public Cliente(string Nome, string Telefone, string Email){
-        this.Nome = Nome;
-        this.Telefone = Telefone;
-        this.Email = Email;
-    }
+         public Cliente(string Nome, string Telefone, string Email){
+            this.Nome = Nome;
+            this.Telefone = Telefone;
+            this.Email = Email;
+        }
     }
 }
