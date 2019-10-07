@@ -1,26 +1,37 @@
-namespace ByteBank{
-    public class ContaCorrente{
+namespace ByteBank {
+    public class ContaCorrente {
         private int conta;
-        private ContaCorrente deposito;
-        private object ;
 
-        public string Titular{get;set;}
-        public int Agencia{get;set;}
-        public int Numero{get;set;}
-        public double Saldo{get;set;}
-        public double Deposito{get;set;}
-        public double Saque{get;set;}
-        public double Transferencia{get;set;}
-        public ContaCorrente(int agencia, int conta, string titular, double Deposito, double Saque, double Transferencia)
-        {
+        public string Titular { get; set; }
+        public int Agencia { get; set; }
+        public int Numero { get; set; }
+        public double Saldo { get; set; }
+
+        public ContaCorrente (int agencia, int conta, string titular) {
             this.Agencia = agencia;
             this.conta = conta;
             this.Titular = titular;
             this.Saldo = 0;
-            this.Deposito = Deposito;
-            this.Saque = Saque;
-            this.Transferencia = Transferencia;
         }
-        
+
+        public double Deposito(double valor){
+            return this.Saldo += valor;
+        } 
+        public bool Saque(double valor){
+            if(Saldo >= valor){
+                Saldo -= valor;
+                return true;
+            }else{
+                return false;
+            }
+        }
+        public bool Transferencia(ContaCorrente contaDestino, double valor){
+            if(this.Saque(valor)){
+                contaDestino.Deposito(valor);
+                return true;
+            }else{
+                return false;
+            }
+        }
     }
-}    
+}

@@ -1,0 +1,8 @@
+Nome: The Mountain
+Estilo: RPG
+Classes: Guerreiro, Atirador, Mago.
+Armas: Guerreiro(espada, maça, lança, machado) Ranger(arco curto, arco longo, besta, arremessaveis) Mago(varinha, cajado, bordão).
+Armaduras: Metalica, feral, de tecido.
+
+
+
