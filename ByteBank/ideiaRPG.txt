@@ -1,8 +1,23 @@
 Nome: The Mountain
 Estilo: RPG
 Classes: Guerreiro, Atirador, Mago.
-Armas: Guerreiro(espada, maça, lança, machado) Ranger(arco curto, arco longo, besta, arremessaveis) Mago(varinha, cajado, bordão).
+Sub-Classes: Guerreiro(Vanguarista, Bárbaro, Clerigo), Atirador(Atirador de elite, Caçador, Espião), Mago(Mago de batalha, Druida, Estudioso).
+Armas: Guerreiro(espada, maça, lança, machado) Atirador(arco curto, arco longo, besta, arremessaveis) Mago(varinha, cajado, bordão).
 Armaduras: Metalica, feral, de tecido.
+Descrições de Classes:
+Guerreiro:
+Lutador de curta distancia que usa força bruta para derrotar seus inimigos, São os mais comuns servindo o exercito real, e a inspiração dos jovens.
+Vanguarista é um guerreiro que luta na linha de frente em batalhas, usa armadura metalica e escudo, suas armas normalmente não são longas, com o objetivo de priorzar as formação.
+Bárbaro é um guerreiro brutal proveniente de tribos do norte, costuma usar armas grandes e usa peles e escamas como armadura e trofel, sua fúria é a principal arma em seu arsenal.
+Clérigo é um guerreiro que usa de poderes divinos para lutar e proteger o grupo, costuma usar seu robe monarquico por motivos religiosos e uma pequena clava de espinhos.
+
+Atirador:
+Atirador de elite é um besteiro que serve no exercito real, usado principalmente contra batedores, tambem porta uma espada curta e uma coto de malha.
+Caçador é um atirador que usa de um arco longo para dar tiros certeiros a uma distancia consideravel, tambem porta uma faca de campo e uma armadura de couro.
+Espiao é um combatente furtivo que se esconde nas sombras, usa de venenos e adagas para executar seus alvos.
+
+Mago:
+
 
 
 
