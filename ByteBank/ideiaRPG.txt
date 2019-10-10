@@ -7,7 +7,7 @@ Armaduras: Metalica, feral, de tecido.
 Descrições de Classes:
 Guerreiro:
 Lutador de curta distancia que usa força bruta para derrotar seus inimigos, São os mais comuns servindo o exercito real, e a inspiração dos jovens.
-Vanguarista é um guerreiro que luta na linha de frente em batalhas, usa armadura metalica e escudo, suas armas normalmente não são longas, com o objetivo de priorzar as formação.
+Vanguarista é um guerreiro que luta na linha de frente em batalhas, usa armadura metalica e escudo grande, suas armas normalmente não são longas, com o objetivo de priorzar as formação.
 Bárbaro é um guerreiro brutal proveniente de tribos do norte, costuma usar armas grandes e usa peles e escamas como armadura e trofel, sua fúria é a principal arma em seu arsenal.
 Clérigo é um guerreiro que usa de poderes divinos para lutar e proteger o grupo, costuma usar seu robe monarquico por motivos religiosos e uma pequena clava de espinhos.
 
@@ -17,7 +17,8 @@ Caçador é um atirador que usa de um arco longo para dar tiros certeiros a uma 
 Espiao é um combatente furtivo que se esconde nas sombras, usa de venenos e adagas para executar seus alvos.
 
 Mago:
-
+O mago de batalha usa magia pura, tambem chamada de magia de bronze, ele é capaz de criar objetos de magia pura e movimentalos pelo espaço, usa escamas de metal em algumas partes do corpo, como torax.
+O druida é um feiticeiro oriundo dos bosques e florestas, usa a propria floresta para se defender, e um espirito guardião para destruir seus inimigos, usa de peles como armadura e identidade
 
 
 

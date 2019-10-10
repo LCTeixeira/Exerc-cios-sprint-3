@@ -19,6 +19,7 @@ namespace TodoList {
                     TodoItem todoItem = new TodoItem (titulo, nota);
                     todoList.Add (todoItem);
                 }
+
             } catch (IOException ioe) {
                 System.Console.WriteLine ("Erro ao acessar arquivo");
                 System.Console.WriteLine (ioe.Message);
@@ -30,8 +31,8 @@ namespace TodoList {
                 Console.Clear ();
                 System.Console.WriteLine ("TODO LIST");
                 System.Console.WriteLine ();
-                ListaItens(todoList);
-                System.Console.WriteLine();
+                ListaItens (todoList);
+                System.Console.WriteLine ();
                 System.Console.WriteLine ("Digite uma opção:");
                 System.Console.WriteLine ("1 - Adicionar Item");
                 System.Console.WriteLine ("2 - Remover Item");
@@ -41,13 +42,14 @@ namespace TodoList {
 
                 switch (opcao) {
                     case 1:
-                        AddItem(todoList);
+                        AddItem (todoList);
                         break;
                     case 2:
-                        RemoveItem(todoList);
+                        RemoveItem (todoList);
                         break;
                     case 3:
                         System.Console.WriteLine ("Tchau!");
+                        SaveItem (todoList, filePath);
                         break;
                     default:
                         System.Console.WriteLine ("Opção invalida");
@@ -63,55 +65,77 @@ namespace TodoList {
             int count = 1;
             System.Console.WriteLine ("Todo List");
             System.Console.WriteLine ();
-            System.Console.WriteLine ($"ID{"",2} Titulo{"",12} Notas");
+            System.Console.WriteLine ($"ID{"",2} Titulo {"",12} Notas");
             foreach (TodoItem item in todolist) {
-                System.Console.WriteLine($"{count, 3}: {item.Titulo, -15} - {item.Nota}");
+                System.Console.WriteLine ($"{count, 3}: {item.Titulo, -15} - {item.Nota}");
                 count++;
             }
         }
 
-        public static void AddItem(List<TodoItem> todoList)
-        {
-        Console.Clear();
-        System.Console.WriteLine("Novo Item: ");
-        System.Console.WriteLine();
-        System.Console.Write("Titulo: ");
-        string titulo = Console.ReadLine();
-        System.Console.WriteLine("Nota: ");
-        string nota = Console.ReadLine();
-        TodoItem item = new TodoItem(titulo, nota);
+        public static void AddItem (List<TodoItem> todoList) {
+            Console.Clear ();
+            System.Console.WriteLine ("Novo Item: ");
+            System.Console.WriteLine ();
+            System.Console.Write ("Titulo: ");
+            string titulo = Console.ReadLine ();
+            System.Console.WriteLine ("Nota: ");
+            string nota = Console.ReadLine ();
+            TodoItem item = new TodoItem (titulo, nota);
 
-        todoList.Add(item);
+            todoList.Add (item);
         }
 
-        public static void RemoveItem(List<TodoItem> todoList)
-        {
+        public static void RemoveItem (List<TodoItem> todoList) {
             int index = 0;
             do {
-                Console.Clear();
-                System.Console.WriteLine("Remove Item");
-                System.Console.WriteLine();
-                ListaItens(todoList);
-                System.Console.WriteLine("Digite o ID ou x para terminar");
-                System.Console.WriteLine("ID: ");
-                string id = Console.ReadLine();
+                Console.Clear ();
+                System.Console.WriteLine ("Remove Item");
+                System.Console.WriteLine ();
+                ListaItens (todoList);
+                System.Console.WriteLine ("Digite o ID ou x para terminar");
+                System.Console.WriteLine ("ID: ");
+                string id = Console.ReadLine ();
 
-                if(id.ToLower() == "x")
-                {
+                if (id.ToLower () == "x") {
                     break;
-                } else{
-                    index = int.Parse(id) - 1;
+                } else {
+                    index = int.Parse (id) - 1;
                 }
 
-                if((index < 0) || (index > todoList.Count - 1))
-                {
-                    System.Console.WriteLine("ID Invalisdo");
-                    System.Console.WriteLine("Pressionar <enter> para continnuar");
-                    Console.ReadLine();
-                }else{
-                    todoList.RemoveAt(index);
+                if ((index < 0) || (index > todoList.Count - 1)) {
+                    System.Console.WriteLine ("ID Invalisdo");
+                    System.Console.WriteLine ("Pressionar <enter> para continnuar");
+                    Console.ReadLine ();
+                } else {
+                    todoList.RemoveAt (index);
                 }
-            } while(true);
+            } while (true);
+        }
+        public void SaveItem (List<TodoItem> lista, string filePath) {
+            List<string> linhas = new List<string> ();
+            linhas.Add ("titulo,nota");
+            foreach (TodoItem item in lista) {
+                string titulo = "\"" + item.Titulo + "\"";
+                string nota = "\"" + item.Nota + "\"";
+                linhas.Add (titulo + "," + nota);
+            }
+            string tryAgain = "";
+            do {
+                try {
+
+                    File.WriteAllLines (filePath, linhas);
+                    tryAgain = "n";
+
+                } catch (IOException) {
+                    System.Console.WriteLine ("Erro na gravação do arquivo.");
+                    System.Console.WriteLine (e.Message);
+                    do{
+                        System.Console.WriteLine("Deseja tentar novamente?");
+                        tryAgain = Console.ReadLine().ToLower();
+                        
+                    }while(tryAgain == "s" || tryAgain == "n");
+                }
+            }while(tryAgain != "n");
         }
     }
 }
