@@ -5,7 +5,7 @@ namespace ByteBank {
     class Program {
         static void Main (string[] args) {
             #region Cadastro do Cliente.
-            #region Cadastro Conta.
+            
             Console.WriteLine ("ByteBamk - Cadastro de Clientes");
             Console.Write ("Nome: ");
             string nome = Console.ReadLine ();
@@ -41,7 +41,7 @@ namespace ByteBank {
                 System.Console.WriteLine ("Entre com o saldo: ");
                 saldo = double.Parse (Console.ReadLine ());
                 if (saldo >= 0) {
-                    contaCorrente1.Saldo = saldo;
+                    contaCorrente1.Deposito(saldo);
                 } else {
                     System.Console.WriteLine ("Valor do saldo deve ser positivo");
                 }
@@ -53,7 +53,7 @@ namespace ByteBank {
             ContaCorrente contaCorrente2 = new ContaCorrente (123, 321, cliente2);
 
             #region Deposito.
-            Cliente usuario = contaCorrente1.Titular:
+            Cliente usuario = contaCorrente1.Titular;
                 System.Console.WriteLine ("ByteBank - Deposito em Conta");
             System.Console.WriteLine ($"Bem Vindo - {usuario.Nome}");
             System.Console.WriteLine ($"Agencia {contaCorrente1.Agencia} Conta: {contaCorrente1.Numero}");

@@ -1,6 +1,6 @@
 using System;
 namespace SENAIzinho {
-    class sala {
+    class Sala {
         public int capacidadeAtual;
         public int capacidadeTotal;
         public int numeroSala;

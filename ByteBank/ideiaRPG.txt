@@ -12,13 +12,15 @@ Bárbaro é um guerreiro brutal proveniente de tribos do norte, costuma usar arm
 Clérigo é um guerreiro que usa de poderes divinos para lutar e proteger o grupo, costuma usar seu robe monarquico por motivos religiosos e uma pequena clava de espinhos.
 
 Atirador:
+É um lutador completamente versátil que pode lutar em nqualquer lugar, especialista em assassinato, e armas de longa distancia.
 Atirador de elite é um besteiro que serve no exercito real, usado principalmente contra batedores, tambem porta uma espada curta e uma coto de malha.
 Caçador é um atirador que usa de um arco longo para dar tiros certeiros a uma distancia consideravel, tambem porta uma faca de campo e uma armadura de couro.
 Espiao é um combatente furtivo que se esconde nas sombras, usa de venenos e adagas para executar seus alvos.
 
 Mago:
+Lutador de media e longa distancia que usa de magia para efetuar ataques, são estudiosos que manipulam o tecido magico de realidade.
 O mago de batalha usa magia pura, tambem chamada de magia de bronze, ele é capaz de criar objetos de magia pura e movimentalos pelo espaço, usa escamas de metal em algumas partes do corpo, como torax.
 O druida é um feiticeiro oriundo dos bosques e florestas, usa a propria floresta para se defender, e um espirito guardião para destruir seus inimigos, usa de peles como armadura e identidade
-
+o mago estudioso usaa de ataques elementais poderosos e robes de mago encantados no campo de batalha.
 
 
