@@ -17,11 +17,12 @@ namespace ByteBank {
             this._Saldo = 0;
         }
 
-        public double Deposito (double valor) {
-            if (valor > 0) {
-                return this._Saldo += valor;
+        public bool Deposito (double valor) {
+            if (valor >= 0) {
+            this._Saldo += valor;
+            return true;
             } else {
-                return this.Saldo;
+                return false;
             }
         }
         public bool Saque (double valor) {

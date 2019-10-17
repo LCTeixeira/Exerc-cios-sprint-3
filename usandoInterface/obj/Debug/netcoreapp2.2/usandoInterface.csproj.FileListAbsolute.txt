@@ -1,0 +1,11 @@
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\bin\Debug\netcoreapp2.2\usandoInterface.deps.json
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\bin\Debug\netcoreapp2.2\usandoInterface.runtimeconfig.json
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\bin\Debug\netcoreapp2.2\usandoInterface.runtimeconfig.dev.json
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\bin\Debug\netcoreapp2.2\usandoInterface.dll
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\bin\Debug\netcoreapp2.2\usandoInterface.pdb
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\obj\Debug\netcoreapp2.2\usandoInterface.csprojAssemblyReference.cache
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\obj\Debug\netcoreapp2.2\usandoInterface.csproj.CoreCompileInputs.cache
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\obj\Debug\netcoreapp2.2\usandoInterface.AssemblyInfoInputs.cache
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\obj\Debug\netcoreapp2.2\usandoInterface.AssemblyInfo.cs
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\obj\Debug\netcoreapp2.2\usandoInterface.dll
+C:\Users\52007254883\Documents\Exercícios\usandoInterface\obj\Debug\netcoreapp2.2\usandoInterface.pdb
