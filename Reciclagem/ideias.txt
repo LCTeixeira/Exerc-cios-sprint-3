@@ -1,0 +1,1 @@
+criar uma classe que separa os tipos de lixo, as interfaces vao retornar um bool se o lixo é de um tipo ou nao, a classe que separa os lixos vai ler o bool e selecionar uma lixeira com switch case 
